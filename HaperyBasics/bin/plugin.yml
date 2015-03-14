@@ -1,0 +1,60 @@
+name: HaperyBasics
+main: fr.haperycube.haperybasics.Haperybasics
+version: 1.0
+author: aaiach
+
+commands:
+  exp:
+    description: set/get exp d'un joueur
+  feed:
+    description: nourrir un joueur
+  heal:
+    description: guérir un joueur
+  fly:
+    description: donner le fly à un joueur
+  day:
+    description: mettre le jour
+  night:
+    description: mettre la nuit
+  workbench:
+    description: ouvrir le workbench
+    aliases: [craft]
+  invsee:
+    description: voir l'inventaire d'un joueur
+  enderchest:
+    description: voir l'enderchest d'un joueur
+  vanish:
+    description: toggle le vanish
+    aliases: [v]
+  helpop:
+    description: demandez de l'aide au staff
+    aliases: [staff]
+  broadcast:
+    description: envoyez un message d'annonce
+  gamemode:
+    description: set le gamemode
+    aliases: [gm]
+  clearinventory:
+    description: vider un inventaire
+    aliases: [ci]
+  god:
+    description: devenir invincible
+  msg:
+    description: envoyer un message
+    aliases: [w]
+  socialspy:
+    description: voir les messages envoyés
+    aliases: [spy]
+  tpa:
+    description: envoyer une requête de teleportation
+  tpaccept:
+    description: accepter une requête de teleportation
+    aliases: [tpyes]
+  tpall:
+    description: teleporter tout le monde à soi
+  ▦:
+    description: .
+  tp:
+    description: se teleporter à un joueur
+  tphere:
+    description: teleporter un joueur à soi
